@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import Header from "./components/Header"
-import Lista_phone from "./components/lista_phone"
-import Carrito_Compras from "./components/carrito_compras"
+import ListaPhone from "./components/lista_phone"
+import CarritoCompras from "./components/carrito_compras"
 import { v4 as uuidv4 } from "uuid"
 
 
@@ -29,7 +29,7 @@ const [carrito, setCarrito] = useState([])
       <div className="col-6">
         <h3>Lista de SmartPhones</h3>
       {phone.map( ev_phone => (
-        <Lista_phone
+        <ListaPhone
         phone={phone}
         ev_phone={ev_phone}
         key={ev_phone.id}
