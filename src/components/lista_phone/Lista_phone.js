@@ -29,7 +29,7 @@ export default function Lista_phone({ ev_phone, carrito, setCarrito, phone }) {
               <h5 className="card-title">{marca} </h5>
               <p className="card-text">
                 This is a wider card with supporting text below as a natural
-                 additional contentss.
+                 additional contentss rolando.
               </p>
               <p className="card-text d-flex  justify-content-between ">
                 <small className="text-muted">Precio: $ {precio}</small>
