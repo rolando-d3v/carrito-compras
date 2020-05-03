@@ -39,7 +39,7 @@ const [carrito, setCarrito] = useState([])
       ))}
       </div>
       <div className="col-6">
-        <h3 className="text-center"  >Carrito</h3>
+        <h3 className="text-center"  >Carrito de Compras</h3>
         
 
     </div>
